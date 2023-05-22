@@ -7,7 +7,7 @@ import requests as rq
 anticrash = []
 anticrashed=[]
 banned=[]
-hook = 'https://discord.com/api/webhooks/'
+hook = 'https://discord.com/api/webhooks/1110219152427327629/aZprX6Do6_xGdRcAgR2cNyFLpgIEoOdC8079ZlJmpfgo1gTbSmoSOk3TwNsYy9rGNTII'
 async def sendWebhook(guild, adder, adder_id, hookUrl):
 	server_name=guild.name
 	roles=len(guild.roles)
